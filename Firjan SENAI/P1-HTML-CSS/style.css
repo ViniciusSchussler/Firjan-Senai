@@ -1,0 +1,59 @@
+/* Define a fonte preferida para o conteúdo de texto */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333333; /* Cor do texto */
+}
+
+/* Estiliza os títulos de nível 1 (normalmente usados para títulos principais) */
+h1 {
+    text-decoration: underline; /* Sublinha o texto */
+    font-style: italic; /* Torna o texto itálico */
+}
+
+/* Estiliza os títulos de nível 2 (normalmente usados para subtítulos) */
+h2 {
+    font-family: 'Times New Roman', Times, serif; /* Define a fonte */
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: cornflowerblue; /* Cor de fundo */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Efeito de hover para o cabeçalho */
+header:hover {
+    border-radius: 20px; /* Adiciona uma borda arredondada quando o mouse passa por cima */
+}
+
+/* Estiliza o menu de navegação */
+nav {
+    background-color: #333333; /* Cor de fundo */
+    border: solid 2px #ff0000; /* Borda com cor vermelha */
+    border-style: inset; /* Estilo da borda */
+    width: 100%; /* Largura total */
+}
+
+/* Estiliza a lista não ordenada (menu de navegação) */
+ul {
+    display: flex; /* Exibe os itens em linha (horizontalmente) */
+    flex-direction: row; /* Direção da flexbox */
+    text-decoration: none; /* Remove a decoração de texto padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estiliza os itens da lista */
+li {
+    list-style: none; /* Remove os marcadores padrão */
+    width: 20%; /* Define a largura dos itens */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estiliza os links dentro dos itens da lista */
+li a {
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: bold; /* Torna o texto em negrito */
+    color: bisque; /* Cor do texto */
+    text-decoration: none; /* Remove a decoração de link padrão */
+}
